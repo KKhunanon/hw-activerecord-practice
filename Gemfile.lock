@@ -54,6 +54,8 @@ GEM
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
       rspec-mocks (~> 3.10.0)
+    rspec-autotest (1.0.0)
+      rspec-core (>= 2.99.0.beta1, < 4.0.0)
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.1)
@@ -78,6 +80,7 @@ DEPENDENCIES
   byebug
   guard-rspec
   rspec (~> 3.0)
+  rspec-autotest (= 1.0.0)
   sqlite3 (~> 1.4)
 
 RUBY VERSION
